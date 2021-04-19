@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "version": "0.1.0",
+  "description": "Project documentation.",
+  "main": "./src/remark-mermaid-alt.js",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^8.8.0",
+    "markserv": "^1.17.4",
+    "remark-cli": "^8.0.1",
+    "remark-mermaid": "^0.2.0"
+  },
+  "scripts": {
+    "serve": "markserv README.md",
+    "build": "remark ./src -o ./ && cp ./README.md ../README.md"
+  },
+  "author": {
+    "name": "Rheinard Korf"
+  },
+  "license": "MIT"
+}

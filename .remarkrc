@@ -1,0 +1,11 @@
+{
+    "plugins": {
+        "./src/remark-mermaid-alt.js": {
+			"destination": "./images/mermaid",
+			"linkRoot": "./images/mermaid/",
+			"mermaidArgs": {
+				"configFile": ".mermaidrc"
+			}
+		}
+    }
+}

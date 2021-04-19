@@ -1,0 +1,19 @@
+{
+	"sequence":{
+		"diagramMarginY" :10,
+		"diagramMarginX" :50,
+		"actorMargin" :50,
+		"width" :150,
+		"height" :65,
+		"boxMargin" :10,
+		"boxTextMargin" :5,
+		"noteMargin" :10,
+		"messageMargin" :35,
+		"messageAlign" :"center",
+		"mirrorActors" :false,
+		"bottomMarginAdj" :1,
+		"useMaxWidth" :true,
+		"rightAngles" :false,
+		"showSequenceNumbers" :false
+	}
+}
